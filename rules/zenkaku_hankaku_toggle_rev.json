@@ -1,0 +1,22 @@
+{
+  "title": "半角/全角キー切替改良版",
+  "rules": [
+    {
+      "description": "grave_accent_and_tildeで日本語入力切替（改良版）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde"
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": ["left_control"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
